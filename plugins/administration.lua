@@ -2069,7 +2069,7 @@ do
 		..'🔷<b>Mute</b> <i>video</i> = '..data.lock.video..'\n'
 		..'🔷<b>Mute</b> <i>photo</i> = '..data.lock.dphoto..'\n'
 		..'🔷<b>Mute</b> <i>audio</i> = '..data.lock.audio..'\n'
-		..'🔷<b>Mute</b> <i>all</i> = '..data.lock.all..'\n➖➖➖➖➖➖➖➖➖➖\n<b>By Eagle</b>'
+		..'🔷<b>Mute</b> <i>all</i> = '..data.lock.all..'\n➖➖➖➖➖➖➖➖➖➖\n<b>By REBEL</b>'
 	  local text = string.gsub(text,'yes','✅')
 	  local text = string.gsub(text,'no','❌')
           send_api_msg(msg, get_receiver_api(msg), text, true, 'html')
